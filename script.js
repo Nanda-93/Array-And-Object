@@ -1,12 +1,12 @@
 // Object declare using {} and print using dot notation
-var person ={
-    name: "Rajini",
-    age: 45,
-    occupation: "actor"
-}
-console.log(person.name);
-console.log(person.age);
-console.log(person.occupation);
+// var person ={
+//     name: "Rajini",
+//     age: 45,
+//     occupation: "actor"
+// }
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.occupation);
 // Object declare using {} and print using square []
 // var person ={
 //     name: "Rajini",
@@ -22,6 +22,7 @@ console.log(person.occupation);
 // person.name = "rajini";
 // person.age = 45;
 // person.occupation = "actor";
+// person.city = "Chennai";
 // console.log(person);
 //Modifying the Object using dot
 // var person = {
@@ -81,13 +82,13 @@ console.log(person.occupation);
 // }
 // console.log(person)
 //Array Destructuring
-// const arr = [1,2,3];
-// const[x,z,wwww,d=4]= arr;
-// console.log(x);
-// console.log(z);
-// console.log(wwww);
-// console.log(d);
-// console.log(arr);
+const arr = [1,2,3];
+const[x,z,wwww,d=4]= arr;
+console.log(x);
+console.log(z);
+console.log(wwww);
+console.log(d);
+console.log(arr);
 //Object Destructuring
 // const obj = {
 //     name: "kamal",
