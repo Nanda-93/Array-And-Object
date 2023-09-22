@@ -82,13 +82,13 @@
 // }
 // console.log(person)
 //Array Destructuring
-const arr = [1,2,3];
-const[x,z,wwww,d=4]= arr;
-console.log(x);
-console.log(z);
-console.log(wwww);
-console.log(d);
-console.log(arr);
+// const arr = [1,2,3];
+// const[x,z,wwww,d=4]= arr;
+// console.log(x);
+// console.log(z);
+// console.log(wwww);
+// console.log(d);
+// console.log(arr);
 //Object Destructuring
 // const obj = {
 //     name: "kamal",
@@ -98,7 +98,7 @@ console.log(arr);
 //         pin: 60001
 //     }
 //  }
-//const{key}=objectname
+// //const{key}=objectname
 // const {name,age}= obj;
 // console.log(name);
 // console.log(age);
@@ -121,17 +121,17 @@ console.log(arr);
 //3. In a function in strict mode , "this" is undefined.
 // 'use strict';
 // const a = function(){
-//     console.log("strict mode");
+//     console.log("Nandu");
 //     console.log(this)
 // }
 // a();
 //4. In a method, "this" refers to the owner object.
-// const person = {
-//     names : "kamal",
-//     age: 60,
-//     occupation: "actor",
-//     detail: function(){
-//         console.log(`I love ❤ ${this.names}`)
-//     }
-// }
-// console.log(person.detail());
+const person = {
+    names : "ReshmaPriya",
+    age: 60,
+    occupation: "actor",
+    detail: function(){
+        console.log(`I love ❤ ${this.names}`)
+    }
+}
+console.log(person.detail());
